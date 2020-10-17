@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BarItem">
+        <!--正常图片 -->
+        <attr name="normalIcon" format="reference"/>
+        <!--选中的图片 -->
+        <attr name="selestIcon" format="reference"/>
+        <!--文字 -->
+        <attr name="title" format="string"/>
+        <!--选中时文字的颜色 -->
+        <attr name="highlightTextColor" format="color|reference"/>
+        <!--控制默认是否选中 -->
+        <attr name="selected" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="TabBar">
+        <attr name="number" format="integer"/>
+    </declare-styleable>
+</resources>
